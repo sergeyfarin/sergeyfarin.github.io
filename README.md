@@ -1,2 +1,0 @@
-sergeyfarin.github.io
-=====================
