@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sergey Farin, ">
+
+
+        <title>Sergey Farin author // Sergey Farin // </title>
+
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="/theme/css/pure.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="pure-g-r" id="layout">
+<div class="sidebar pure-u">
+    <div class="cover-img" style="background-image: url('')">
+        <div class="cover-body">
+            <header class="header">
+                <hgroup>
+                    <h1 class="brand-main"><a href="/">Sergey Farin</a></h1>
+                    <p class="tagline"></p>
+                </hgroup>
+            </header>
+        </div>
+    </div>
+</div>    <div class="pure-u-3-4">
+        <div class="content">
+            <!-- A wrapper for all the blog posts -->
+            <div class="posts">
+                <h1 class="content-subhead">
+Posts by 'Sergey Farin'                </h1>
+<section class="post">
+    <header class="post-header">
+        <a href="/author/sergey-farin.html" title="See posts by Sergey Farin">
+            <img class="post-avatar" alt="Sergey Farin" src="http://www.gravatar.com/avatar/1d2fa976465ab6ba64ca1a48ec3bf352" height="72" width="72">
+        </a>
+        <h3><a class="post-title" href="/my-super-post.html">My super title</a></h3>
+            <p class="post-meta"><p>This is the content of my super blog post.</p></p>
+            <p class="post-meta">
+                in <a href="/category/python.html">Python</a> &middot; пт 03 декабря 2010
+            </p>
+    </header>
+</section><div class="pagination-wrapper content-subhead">
+    <div class="pagination">
+        <div class="pagination-left">
+                &nbsp;
+        </div>
+        <span>Page 1 / 1</span>
+        <div class="pagination-right">
+        </div>
+    </div>
+</div><footer class="footer">
+    <p>&copy; Sergey Farin &ndash;
+        Built with <a href="https://github.com/danclaudiupop/pure">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+    <p>Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_GB">Creative Commons Attribution-ShareAlike 3.0 Unported License</a></p>
+</footer>            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+</body>
+</html>
