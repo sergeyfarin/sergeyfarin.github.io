@@ -3,7 +3,7 @@
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-        <title>Python for Petroleum Engineers</title>
+        <title>Test title</title>
         <meta charset="utf-8" />
         <link href='http://fonts.googleapis.com/css?family=ABeeZee|Carrois+Gothic|Source+Code+Pro:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="/theme/style/reset.css" type="text/css" />
@@ -27,29 +27,54 @@
     </div>
 
     <div class="container content">
-        
-    <article>
-        <header>
+<article>
+    <header>
 <h2><a href="/test.html" rel="bookmark">
     Test title
 </a></h2>
 <time datetime="2010-12-03 10:20:00" pubdate>Posted on
     пт 03 декабря 2010
 </time>
-        </header>
+    </header>
 
-        <div class="body">
-            <p>This is the content of my test blog post.</p>
-        </div>
+    <div class="body">
+        <p>This is the content of my test blog post.</p>
+    </div>
 
+    <br><p>Tags: <a href="/tag/pelican.html">pelican</a>; <a href="/tag/publishing.html">publishing</a>; </p>
+</article>
 
-    </article>
+<script>
+    (function () {
+        'use strict';
+        var titleElm = document.querySelector('article > header');
+        var bodyElm = document.querySelector('article > .body');
+        if (!titleElm || !bodyElm)
+            return;
+
+        var limit = titleElm.offsetTop;
+        var titleCls = titleElm.classList;
+        var bodyCls = bodyElm.classList;
+        var floating = false;
+        window.onscroll = function (evt) {
+            var scrollTop = Math.max(document.body.scrollTop,
+                    document.documentElement.scrollTop);
+            if (!floating && limit <= scrollTop) {
+                titleCls.add('float');
+                bodyCls.add('body-padding');
+                floating = true;
+            }
+            else if (limit >= scrollTop) {
+                titleCls.remove('float');
+                bodyCls.remove('body-padding');
+                floating = false;
+            }
+        };
+    })();
+</script>
     </div>
 
     <div class="container footnote">
-<span class="paginator">
-    Page 1 / 1
-</span>
     </div>
 
     <div class="bottom">
