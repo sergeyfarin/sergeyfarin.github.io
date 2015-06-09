@@ -1,59 +1,62 @@
 <!doctype html>
-<html lang="">	
-<head>
-	<meta charset="utf-8"/>
-	<title>Python for Petroleum Engineers</title>	
-	<meta name="author" content="Sergey Farin">
-	
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Python for Petroleum Engineers</title>
 
-	<link rel="top" href="#" /><link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic|Source+Code+Pro' rel='stylesheet' type='text/css'></link>
-	<link rel="stylesheet" href="http://sfarin.com/theme/css/main.css" type="text/css" />
-		
+    <link rel="stylesheet" href="http://sfarin.com/theme/css/main.css">
+    <link rel="stylesheet" href="http://sfarin.com/theme/css/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div><img src="" class="grv-img"/></div>
+        <div class="title"><a href="http://sfarin.com/">Python for Petroleum Engineers </a></div>
+        <div class="sub-title"></div>
 
-</head>
-	
-<body>
+<p>
+  <div class="view"><a href="http://sfarin.com/archives.html">Archives</a></div>
+</p>
 
-    <div class="container">
-	  
-	  <header role="banner">
-	    <div class="feeds">
-	    </div>
-		<a href="http://sfarin.com" class="title">Python for Petroleum Engineers</a>
+<!-- Social links -->
+
       </header>
-	
-	  <div class="wrapper">
-
-		  <div role="main" class="content">
+      <section>
 <ul>
     <li><a href="http://sfarin.com/category/python.html">Python</a></li>
 </ul>
-		  </div>	
-		  
-		  <div class="sidebar">
-
-	        <nav>
-	          <h2>Categories</h2>
-	          <ul>
-	              <li ><a href="http://sfarin.com/category/python.html">Python</a></li>
-	          </ul>
-	        </nav>
-
-
-
-		  </div>
-
-	  </div>
-
+      </section>
       <footer>
-		<p role="contentinfo">
-		  © 2013 Sergey Farin - Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>. Theme <a href="https://github.com/fle/pelican-simplegrey">pelican-simplegrey</a>.
-    	</p>
+        <p><small>&copy; Python for Petroleum Engineers &mdash; Theme based on Sundown by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <!-- Scale fix -->
+    <script>
+      var metas = document.getElementsByTagName('meta');
+      var i;
+      
+      if (navigator.userAgent.match(/iPhone/i)) {
+        for (i=0; i<metas.length; i++) {
+          if (metas[i].name == "viewport") {
+            metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+          }
+        }
+      
+        document.addEventListener("gesturestart", gestureStart, false);
+      }
 
-	  </footer>	
-
-	</div>
-	
-
-</body>
+      function gestureStart() {
+        for (i=0; i<metas.length; i++) {
+          if (metas[i].name == "viewport") {
+            metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+          }
+        }
+      }
+    </script>
+  </body>
 </html>

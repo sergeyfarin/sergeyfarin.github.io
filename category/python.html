@@ -1,77 +1,74 @@
 <!doctype html>
-<html lang="">	
-<head>
-	<meta charset="utf-8"/>
-	<title>Python - Python for Petroleum Engineers</title>	
-	<meta name="author" content="Sergey Farin">
-	
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Python for Petroleum Engineers - PythonPython for Petroleum Engineers</title>
 
-	<link rel="top" href="#" /><link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic|Source+Code+Pro' rel='stylesheet' type='text/css'></link>
-	<link rel="stylesheet" href="http://sfarin.com/theme/css/main.css" type="text/css" />
-		
+    <link rel="stylesheet" href="http://sfarin.com/theme/css/main.css">
+    <link rel="stylesheet" href="http://sfarin.com/theme/css/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div><img src="" class="grv-img"/></div>
+        <div class="title"><a href="http://sfarin.com/">Python for Petroleum Engineers </a></div>
+        <div class="sub-title"></div>
 
-</head>
-	
-<body>
+<p>
+  <div class="view"><a href="http://sfarin.com/archives.html">Archives</a></div>
+</p>
 
-    <div class="container">
-	  
-	  <header role="banner">
-	    <div class="feeds">
-	    </div>
-		<a href="http://sfarin.com" class="title">Python for Petroleum Engineers</a>
+<!-- Social links -->
+
       </header>
-	
-	  <div class="wrapper">
+      <section>
+      <div class="front-title"><a href="http://sfarin.com/test.html">Test title</a></div>
+<p>
+<small>
+<abbr class="published" title="2010-12-03T10:20:00+01:00">
+  Fri 03 December 2010
+</abbr> | 
+  tags: 
+    <a href="http://sfarin.com/tag/pelican.html">pelican</a>, 
+    <a href="http://sfarin.com/tag/publishing.html">publishing</a>, 
+ -- (<a href="http://sfarin.com/test.html" rel="bookmark">permalink</a>)
+</small>
+</p>      <p>This is the content of my test blog post.</p> 
+      <div class="read-more"><a href="http://sfarin.com/test.html">read more...</a></div>
+      <hr />
 
-		  <div role="main" class="content">
-
-<h1>Posts categorized under: Python</h1>
-
-<article class="summary">
-<div class="metadata">
-  <time datetime="2010-12-03T10:20:00+01:00" pubdate>Fri 03 December 2010</time>
-    <address class="vcard author">
-      by <a class="url fn" href="http://sfarin.com/author/sergey-farin.html">Sergey Farin</a>
-    </address>
-  in <a href="http://sfarin.com/category/python.html">Python</a>
-<p class="tags">tagged <a href="http://sfarin.com/tag/pelican.html">pelican</a>, <a href="http://sfarin.com/tag/publishing.html">publishing</a></p></div>  <div>
-    <h2>
-      <a href="http://sfarin.com/test.html" rel="bookmark" title="Permalink to Test title">Test title</a>
-    </h2>
-    <p><p>This is the content of my test blog post.</p></p>
-  </div>
-</article>
-<div class="pagination">
-    Page 1 / 1
-</div>
-
-		  </div>	
-		  
-		  <div class="sidebar">
-
-	        <nav>
-	          <h2>Categories</h2>
-	          <ul>
-	              <li class="active"><a href="http://sfarin.com/category/python.html">Python</a></li>
-	          </ul>
-	        </nav>
-
-
-
-		  </div>
-
-	  </div>
-
+      </section>
       <footer>
-		<p role="contentinfo">
-		  © 2013 Sergey Farin - Proudly powered by <a href="http://alexis.notmyidea.org/pelican/">pelican</a>. Theme <a href="https://github.com/fle/pelican-simplegrey">pelican-simplegrey</a>.
-    	</p>
+        <p><small>&copy; Python for Petroleum Engineers &mdash; Theme based on Sundown by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <!-- Scale fix -->
+    <script>
+      var metas = document.getElementsByTagName('meta');
+      var i;
+      
+      if (navigator.userAgent.match(/iPhone/i)) {
+        for (i=0; i<metas.length; i++) {
+          if (metas[i].name == "viewport") {
+            metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
+          }
+        }
+      
+        document.addEventListener("gesturestart", gestureStart, false);
+      }
 
-	  </footer>	
-
-	</div>
-	
-
-</body>
+      function gestureStart() {
+        for (i=0; i<metas.length; i++) {
+          if (metas[i].name == "viewport") {
+            metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+          }
+        }
+      }
+    </script>
+  </body>
 </html>
