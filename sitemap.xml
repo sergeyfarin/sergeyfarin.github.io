@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://sfarin.com/</loc>
-<lastmod>2015-06-09T07:31:42-00:00</lastmod>
+<lastmod>2015-06-09T07:34:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://sfarin.com/archives.html</loc>
-<lastmod>2015-06-09T07:31:42-00:00</lastmod>
+<lastmod>2015-06-09T07:34:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://sfarin.com/tags.html</loc>
-<lastmod>2015-06-09T07:31:42-00:00</lastmod>
+<lastmod>2015-06-09T07:34:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://sfarin.com/categories.html</loc>
-<lastmod>2015-06-09T07:31:42-00:00</lastmod>
+<lastmod>2015-06-09T07:34:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -46,14 +46,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://sfarin.com/tag/publishing.html</loc>
+<loc>http://sfarin.com/tag/pelican.html</loc>
 <lastmod>2010-12-03T10:20:00+00:20</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://sfarin.com/tag/pelican.html</loc>
+<loc>http://sfarin.com/tag/publishing.html</loc>
 <lastmod>2010-12-03T10:20:00+00:20</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
