@@ -5,15 +5,7 @@
   "author": "Sergey",
   "private": true,
   "scripts": {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    "deploy": "push-dir --dir=dist --remote=https://github.com/me/my-project.git --cleanup",
-=======
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
->>>>>>> Stashed changes
-=======
-    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
->>>>>>> Stashed changes
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
