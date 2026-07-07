@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-sergey",
+  "version": "1.0.0",
+  "description": "My incredible Nuxt.js project",
+  "author": "Sergey",
+  "private": true,
+  "packageManager": "pnpm@10.6.3",
+  "scripts": {
+    "postinstall": "nuxt prepare",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt preview",
+    "generate": "nuxt generate",
+    "lint": "nuxt prepare && eslint nuxt.config.js eslint.config.mjs pages components layouts"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "nuxt": "^4.4.8",
+    "tailwindcss": "^3.4.19"
+  },
+  "devDependencies": {
+    "@nuxt/eslint": "^1.16.0",
+    "eslint": "^10.6.0"
+  }
+}
