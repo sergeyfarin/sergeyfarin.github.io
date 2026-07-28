@@ -1,9 +1,16 @@
+import tailwindcss from '@tailwindcss/vite'
+
 export default defineNuxtConfig({
   compatibilityDate: '2026-07-07',
   modules: [
-    '@nuxt/eslint',
-    '@nuxtjs/tailwindcss'
+    '@nuxt/eslint'
   ],
+  css: ['~/assets/css/tailwind.css'],
+  vite: {
+    plugins: [
+      tailwindcss()
+    ]
+  },
   app: {
     head: {
       title: 'nuxt-sergey',

@@ -4,7 +4,7 @@
   "description": "My incredible Nuxt.js project",
   "author": "Sergey",
   "private": true,
-  "packageManager": "pnpm@10.6.3",
+  "packageManager": "pnpm@11.17.0+sha512.cca3cea332ad254bb84145f966d19f4879615210346fc92c79a047f23a0d7b3cca3c3792f0076ba1f1831d277efbcf0a9119b31a9a60eca7fb3d6231f331ef72",
   "scripts": {
     "postinstall": "nuxt prepare",
     "dev": "nuxt",
@@ -14,12 +14,12 @@
     "lint": "nuxt prepare && eslint nuxt.config.js eslint.config.mjs pages components layouts"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.14.0",
-    "nuxt": "^4.4.8",
-    "tailwindcss": "^3.4.19"
+    "@tailwindcss/vite": "4.3.3",
+    "nuxt": "4.5.1",
+    "tailwindcss": "4.3.3"
   },
   "devDependencies": {
-    "@nuxt/eslint": "^1.16.0",
-    "eslint": "^10.6.0"
+    "@nuxt/eslint": "1.16.0",
+    "eslint": "10.8.0"
   }
 }
