@@ -11,7 +11,8 @@
     "build": "nuxt build",
     "start": "nuxt preview",
     "generate": "nuxt generate",
-    "lint": "nuxt prepare && eslint nuxt.config.js eslint.config.mjs pages components layouts"
+    "lint": "nuxt prepare && eslint .",
+    "lint:fix": "nuxt prepare && eslint . --fix"
   },
   "dependencies": {
     "@tailwindcss/vite": "4.3.3",
@@ -19,7 +20,7 @@
     "tailwindcss": "4.3.3"
   },
   "devDependencies": {
-    "@nuxt/eslint": "1.16.0",
-    "eslint": "10.8.0"
+    "@nuxt/eslint": "1.17.0",
+    "eslint": "10.8.1"
   }
 }
