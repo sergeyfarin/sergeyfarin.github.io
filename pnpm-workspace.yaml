@@ -9,5 +9,5 @@ minimumReleaseAgeExclude:
   - '@nuxt/schema@4.5.2'
   - '@nuxt/vite-builder@4.5.2'
   - nuxt@4.5.2
-overrides:
-  brace-expansion: 5.0.9
+# overrides:
+#   brace-expansion: 5.0.9
