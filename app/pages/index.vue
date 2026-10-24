@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <app-logo />
+      <AppLogo />
       <h1 class="title">
         nuxt-sergey
       </h1>
@@ -10,14 +10,14 @@
       </h2>
       <div class="links">
         <a
-          href="https://nuxtjs.org/"
+          href="https://nuxt.com/"
           target="_blank"
           class="button--green"
         >
           Documentation
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/nuxt/nuxt"
           target="_blank"
           class="button--grey"
         >
@@ -27,16 +27,6 @@
     </div>
   </div>
 </template>
-
-<script>
-import AppLogo from '~/components/AppLogo.vue'
-
-export default {
-  components: {
-    AppLogo
-  }
-}
-</script>
 
 <style>
 /* Sample `apply` at-rules with Tailwind CSS
